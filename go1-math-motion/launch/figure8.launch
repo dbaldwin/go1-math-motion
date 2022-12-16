@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="go1-math-motion" type="twist_sub" name="node_twist_sub" output="screen"/>
+    <node pkg="go1-math-motion" type="figure8" name="node_figure8_walk" output="screen"/>
+</launch>
