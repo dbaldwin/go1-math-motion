@@ -7,3 +7,7 @@ Go1 high level control with ROS
 - http://localhost:6080
 - Open terminal and cd ~/catkin_ws/src
 - git clone -b v3.8.0 https://github.com/unitreerobotics/unitree_legged_sdk
+- cd ~/catkin_ws
+- catkin_make
+- source ~/catkin_ws/devel/setup.bash
+- roslaunch go1-math-motion circle.launch
